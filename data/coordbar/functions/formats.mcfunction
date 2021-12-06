@@ -1,0 +1,5 @@
+data modify storage coordbar:title coord_title set value '[{"text":"x: ","color":"gold"},{"score":{"name":"@s","objective":"x_coord"},"color":"white"},{"text":" y: ","color":"gold"},{"score":{"name":"@s","objective":"y_coord"},"color":"white"},{"text":" z: ","color":"gold"},{"score":{"name":"@s","objective":"z_coord"},"color":"white"}]'
+data modify storage coordbar:title rotation_north_title set value '[{"text":" north: ","color":"gold"},{"score":{"name":"@s","objective":"rotation"},"color":"white"}]'
+data modify storage coordbar:title rotation_east_title set value '[{"text":" east: ","color":"gold"},{"score":{"name":"@s","objective":"rotation"},"color":"white"}]'
+data modify storage coordbar:title rotation_south_title set value '[{"text":" south: ","color":"gold"},{"score":{"name":"@s","objective":"rotation"},"color":"white"}]'
+data modify storage coordbar:title rotation_west_title set value '[{"text":" west: ","color":"gold"},{"score":{"name":"@s","objective":"rotation"},"color":"white"}]'
