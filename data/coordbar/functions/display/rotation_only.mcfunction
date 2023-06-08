@@ -6,4 +6,4 @@ execute if score @s rotation matches 158..202 run title @s actionbar {"nbt":"rot
 execute if score @s rotation matches 203..247 run title @s actionbar {"nbt":"rotation_north_east_title","storage":"coordbar:title","interpret":true}
 execute if score @s rotation matches 248..292 run title @s actionbar {"nbt":"rotation_east_title","storage":"coordbar:title","interpret":true}
 execute if score @s rotation matches 293..337 run title @s actionbar {"nbt":"rotation_south_title","storage":"coordbar:title","interpret":true}
-execute if score @s rotation matches 315.. run title @s actionbar {"nbt":"rotation_south_title","storage":"coordbar:title","interpret":true}
+execute if score @s rotation matches 338.. run title @s actionbar {"nbt":"rotation_south_title","storage":"coordbar:title","interpret":true}

@@ -8,4 +8,5 @@ tellraw @s {"text":"Enable", "color":"green", "clickEvent":{"action":"run_comman
 tellraw @s {"text":"Disable", "color":"red", "clickEvent":{"action":"run_command", "value":"/scoreboard players set @s rotation_en 0"}}
 tellraw @s {"text":"\n==========================\n", "color":"blue"}
 
+# reset value to not spam chat
 scoreboard players set @s coordbar_menu 0
